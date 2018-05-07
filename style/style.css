@@ -1,0 +1,71 @@
+
+/*utility classes*/
+.error {
+    color: red;
+}
+.visually-hidden {
+    position: absolute;
+    top: -9999em;
+    right: -9999em;
+    left: -9999em;
+}
+/*end utility classes*/
+
+.welcome-message {
+    text-align: center;
+    font-size: 1.8em;
+}
+.welcome-message h1 {
+    padding: 20px;
+    font-size: 3.5rem;
+}
+.welcome-message i {
+    padding: 20px;
+    font-size: 2em;
+}
+.auth-container h3 {
+    text-align: center;
+}
+.btn-primary {
+    display: block !important;
+    width: 140px;
+    margin: 0 auto;
+}
+.panel-default {
+    border: 1px solid grey;
+    margin: 15px 0;
+}
+.panel-body {
+    margin: 15px;
+}
+.yellow-stars {
+    color: #FFE442;
+}
+.review-container {
+    padding: 12px 0;
+}
+
+.col-sm-3 {
+    overflow: hidden;
+    position: relative;
+}
+img {
+    width: 100%;
+}
+
+@media(max-width: 768px) {
+    .welcome-message {
+        font-size: 1.6em;
+    }
+    .welcome-message h1 {
+        padding: 15px;
+        font-size: 3.2rem;
+    }
+    .welcome-message i {
+        padding: 15px;
+        font-size: 1.8em;
+    }
+    img {
+        margin-bottom: 22px;
+    }
+}
