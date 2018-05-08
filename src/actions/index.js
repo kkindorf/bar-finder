@@ -10,7 +10,7 @@ import {
     CLEAR_SEARCH_RESULTS
 
 } from './types';
-const ROOT_URL = 'https://polar-garden-84556.herokuapp.com/';
+const ROOT_URL = 'https://polar-garden-84556.herokuapp.com';
 
 export function signinUser({email, password}) {
     //redux thunk is allowing us to return a function from an action creator instead of an action object
